@@ -3,7 +3,7 @@
 {<img src="hhttps://travis-ci.org/Diethart/someoneproj.svg?branch=first"
 alt="Build Status" />}[https://travis-ci.org/Diethart/someoneproj]
 
-{<img src="https://codeclimate.com/github/Diethart/someoneproj/badges/gpa.svg" />}[https://codeclimate.com/github/Diethart/someoneproj]
+{<img src="https://codeclimate.com/repos/573cb9b88901440086004ba1/badges/c07239cb2ae104a81163/gpa.svg" />}[https://codeclimate.com/repos/573cb9b88901440086004ba1/feed]
 
 This README would normally document whatever steps are necessary to get the
 application up and running.
