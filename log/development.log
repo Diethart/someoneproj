@@ -1372,3 +1372,27 @@ Processing by Dashboard::ProfileController#edit as HTML
   Rendered shared/_header.html.erb (1.6ms)
   Rendered shared/_alert_notice.html.erb (0.3ms)
 Completed 200 OK in 28ms (Views: 25.6ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/" for 127.0.0.1 at 2016-05-19 00:28:29 +0300
+  [1m[36mActiveRecord::SchemaMigration Load (0.4ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by MainController#index as HTML
+  Rendered main/index.html.erb within layouts/application (5.5ms)
+  Rendered shared/_header.html.erb (3.3ms)
+  Rendered shared/_alert_notice.html.erb (0.7ms)
+Completed 200 OK in 179ms (Views: 169.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/bootstrap.self-8c0a18ef497d6248739c038ca99120e435b9d0ac33120bf065cd090558f70e73.css?body=1" for 127.0.0.1 at 2016-05-19 00:28:29 +0300
+
+
+Started GET "/assets/application.self-71ed15c50144bc50278b1c1129a3b54d901f0c641e3087b4eed556689ded8be6.js?body=1" for 127.0.0.1 at 2016-05-19 00:28:29 +0300
+
+
+Started GET "/assets/jquery_ujs.self-e87806d0cf4489aeb1bb7288016024e8de67fd18db693fe026fe3907581e53cd.js?body=1" for 127.0.0.1 at 2016-05-19 00:28:29 +0300
+
+
+Started GET "/assets/jquery.self-660adc51e0224b731d29f575a6f1ec167ba08ad06ed5deca4f1e8654c135bf4c.js?body=1" for 127.0.0.1 at 2016-05-19 00:28:29 +0300
+
+
+Started GET "/assets/application.self-4adc7f92367f3f770b37bdc0c7025fd744a08e0efb7f0195634d1ae7493679d5.css?body=1" for 127.0.0.1 at 2016-05-19 00:28:29 +0300
