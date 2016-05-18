@@ -9,7 +9,7 @@ development:
 test:
   adapter: postgresql
   encoding: unicode
-  database: some_test
+  database: <%= ENV['TRAVIS'] ? 'travis_ci_test' : 'some_test' %>
   pool: 5
-  username: diethart
-  password: Gfifhiuh4334
+  username: <%= ENV['TRAVIS'] ? 'postgres' : 'diethart' %>
+  password: <%= ENV['TRAVIS'] ? '' : 'Gfifhiuh4334' %>
