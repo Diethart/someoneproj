@@ -963,3 +963,412 @@ RuntimeError (In order to use respond_with, first you need to declare the format
   Rendered /home/diethart/.rvm/gems/ruby-2.3.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (3.3ms)
   Rendered /home/diethart/.rvm/gems/ruby-2.3.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.5ms)
   Rendered /home/diethart/.rvm/gems/ruby-2.3.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (23.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2016-05-18 22:27:21 +0300
+  [1m[36mActiveRecord::SchemaMigration Load (0.2ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by MainController#index as HTML
+  [1m[35mUser Load (0.6ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1  [["id", 1]]
+  Rendered main/index.html.erb within layouts/application (6.2ms)
+  Rendered shared/_header.html.erb (2.8ms)
+  Rendered shared/_alert_notice.html.erb (0.6ms)
+Completed 200 OK in 1996ms (Views: 1968.5ms | ActiveRecord: 1.4ms)
+
+
+Started GET "/assets/application.self-4adc7f92367f3f770b37bdc0c7025fd744a08e0efb7f0195634d1ae7493679d5.css?body=1" for 127.0.0.1 at 2016-05-18 22:27:23 +0300
+
+
+Started GET "/" for 127.0.0.1 at 2016-05-18 22:27:43 +0300
+  [1m[36mActiveRecord::SchemaMigration Load (0.3ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by MainController#index as HTML
+  [1m[35mUser Load (0.3ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1  [["id", 1]]
+  Rendered main/index.html.erb within layouts/application (5.7ms)
+  Rendered shared/_header.html.erb (4.2ms)
+  Rendered shared/_alert_notice.html.erb (0.8ms)
+Completed 200 OK in 189ms (Views: 163.1ms | ActiveRecord: 1.2ms)
+
+
+Started GET "/assets/bootstrap.self-8c0a18ef497d6248739c038ca99120e435b9d0ac33120bf065cd090558f70e73.css?body=1" for 127.0.0.1 at 2016-05-18 22:27:43 +0300
+
+
+Started GET "/assets/application.self-71ed15c50144bc50278b1c1129a3b54d901f0c641e3087b4eed556689ded8be6.js?body=1" for 127.0.0.1 at 2016-05-18 22:27:43 +0300
+
+
+Started GET "/assets/jquery_ujs.self-e87806d0cf4489aeb1bb7288016024e8de67fd18db693fe026fe3907581e53cd.js?body=1" for 127.0.0.1 at 2016-05-18 22:27:43 +0300
+
+
+Started GET "/assets/jquery.self-660adc51e0224b731d29f575a6f1ec167ba08ad06ed5deca4f1e8654c135bf4c.js?body=1" for 127.0.0.1 at 2016-05-18 22:27:43 +0300
+
+
+Started GET "/assets/application.self-4adc7f92367f3f770b37bdc0c7025fd744a08e0efb7f0195634d1ae7493679d5.css?body=1" for 127.0.0.1 at 2016-05-18 22:27:43 +0300
+
+
+Started GET "/" for 127.0.0.1 at 2016-05-18 22:31:06 +0300
+  [1m[36mActiveRecord::SchemaMigration Load (7.8ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by MainController#index as HTML
+  [1m[35mUser Load (0.5ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1  [["id", 1]]
+  Rendered main/index.html.erb within layouts/application (5.7ms)
+  Rendered shared/_header.html.erb (13.4ms)
+  Rendered shared/_alert_notice.html.erb (1.0ms)
+Completed 200 OK in 204ms (Views: 175.3ms | ActiveRecord: 1.7ms)
+
+
+Started GET "/assets/bootstrap.self-8c0a18ef497d6248739c038ca99120e435b9d0ac33120bf065cd090558f70e73.css?body=1" for 127.0.0.1 at 2016-05-18 22:31:06 +0300
+
+
+Started GET "/assets/jquery.self-660adc51e0224b731d29f575a6f1ec167ba08ad06ed5deca4f1e8654c135bf4c.js?body=1" for 127.0.0.1 at 2016-05-18 22:31:06 +0300
+
+
+Started GET "/assets/application.self-4adc7f92367f3f770b37bdc0c7025fd744a08e0efb7f0195634d1ae7493679d5.css?body=1" for 127.0.0.1 at 2016-05-18 22:31:06 +0300
+
+
+Started GET "/assets/jquery_ujs.self-e87806d0cf4489aeb1bb7288016024e8de67fd18db693fe026fe3907581e53cd.js?body=1" for 127.0.0.1 at 2016-05-18 22:31:06 +0300
+
+
+Started GET "/assets/application.self-71ed15c50144bc50278b1c1129a3b54d901f0c641e3087b4eed556689ded8be6.js?body=1" for 127.0.0.1 at 2016-05-18 22:31:06 +0300
+
+
+Started GET "/" for 127.0.0.1 at 2016-05-18 22:31:07 +0300
+Processing by MainController#index as HTML
+  [1m[36mUser Load (0.4ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1[0m  [["id", 1]]
+  Rendered main/index.html.erb within layouts/application (0.7ms)
+  Rendered shared/_header.html.erb (1.9ms)
+  Rendered shared/_alert_notice.html.erb (0.7ms)
+Completed 200 OK in 25ms (Views: 22.8ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/assets/bootstrap.self-8c0a18ef497d6248739c038ca99120e435b9d0ac33120bf065cd090558f70e73.css?body=1" for 127.0.0.1 at 2016-05-18 22:31:07 +0300
+
+
+Started GET "/assets/jquery_ujs.self-e87806d0cf4489aeb1bb7288016024e8de67fd18db693fe026fe3907581e53cd.js?body=1" for 127.0.0.1 at 2016-05-18 22:31:07 +0300
+
+
+Started GET "/assets/application.self-4adc7f92367f3f770b37bdc0c7025fd744a08e0efb7f0195634d1ae7493679d5.css?body=1" for 127.0.0.1 at 2016-05-18 22:31:07 +0300
+
+
+Started GET "/assets/jquery.self-660adc51e0224b731d29f575a6f1ec167ba08ad06ed5deca4f1e8654c135bf4c.js?body=1" for 127.0.0.1 at 2016-05-18 22:31:07 +0300
+
+
+Started GET "/assets/application.self-71ed15c50144bc50278b1c1129a3b54d901f0c641e3087b4eed556689ded8be6.js?body=1" for 127.0.0.1 at 2016-05-18 22:31:07 +0300
+
+
+Started GET "/ru/users/new" for 127.0.0.1 at 2016-05-18 22:31:08 +0300
+Processing by Home::UsersController#new as HTML
+  Parameters: {"locale"=>"ru"}
+  [1m[35mUser Load (0.3ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1  [["id", 1]]
+  Rendered home/users/_form.html.erb (38.5ms)
+  Rendered home/users/new.html.erb within layouts/application (43.2ms)
+  Rendered shared/_header.html.erb (1.2ms)
+  Rendered shared/_alert_notice.html.erb (0.3ms)
+Completed 200 OK in 76ms (Views: 57.3ms | ActiveRecord: 1.9ms)
+
+
+Started POST "/ru/users" for 127.0.0.1 at 2016-05-18 22:31:16 +0300
+Processing by Home::UsersController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"ziCjqdUfGrLv4o+z9Sfm+lVddFWtAaAhyT1xiIhVIMIStCeqqOIearGIMykXAedKNEbLx0u4FVXUpxci3gXszQ==", "user"=>{"email"=>"diethart19@gmail.com", "password"=>"[FILTERED]", "password_confirmation"=>"[FILTERED]"}, "commit"=>"Зарегистрироваться", "locale"=>"ru"}
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1[0m  [["id", 1]]
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36mUser Exists (0.6ms)[0m  [1mSELECT  1 AS one FROM "users" WHERE "users"."email" = 'diethart19@gmail.com' LIMIT 1[0m
+  [1m[35mSQL (0.2ms)[0m  INSERT INTO "users" ("email", "locale", "salt", "crypted_password", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6) RETURNING "id"  [["email", "diethart19@gmail.com"], ["locale", "ru"], ["salt", "445YDSs9dzz9ZFNCUPZU"], ["crypted_password", "$2a$10$GMuZJ9j4Q1.IvI9k1nKBVOTFQTBXy7vj61mNpThQy.sORJtVGu9lC"], ["created_at", "2016-05-18 19:31:16.288748"], ["updated_at", "2016-05-18 19:31:16.288748"]]
+  [1m[36m (0.5ms)[0m  [1mCOMMIT[0m
+Redirected to http://localhost:3000/ru
+Completed 302 Found in 135ms (ActiveRecord: 1.6ms)
+
+
+Started GET "/ru" for 127.0.0.1 at 2016-05-18 22:31:16 +0300
+Processing by MainController#index as HTML
+  Parameters: {"locale"=>"ru"}
+  [1m[35mUser Load (0.3ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1  [["id", 2]]
+  Rendered main/index.html.erb within layouts/application (0.4ms)
+  Rendered shared/_header.html.erb (2.0ms)
+  Rendered shared/_alert_notice.html.erb (0.4ms)
+Completed 200 OK in 15ms (Views: 13.0ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/ru/blocks" for 127.0.0.1 at 2016-05-18 22:31:18 +0300
+Processing by Dashboard::BlocksController#index as HTML
+  Parameters: {"locale"=>"ru"}
+  [1m[36mUser Load (0.3ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1[0m  [["id", 2]]
+  [1m[35mBlock Load (0.3ms)[0m  SELECT "blocks".* FROM "blocks" WHERE "blocks"."user_id" = $1  ORDER BY title  [["user_id", 2]]
+  Rendered dashboard/blocks/index.html.erb within layouts/application (4.9ms)
+  Rendered shared/_header.html.erb (4.7ms)
+  Rendered shared/_alert_notice.html.erb (1.0ms)
+Completed 200 OK in 78ms (Views: 55.5ms | ActiveRecord: 1.3ms)
+
+
+Started GET "/ru/trainer" for 127.0.0.1 at 2016-05-18 22:31:18 +0300
+Processing by Dashboard::TrainerController#index as HTML
+  Parameters: {"locale"=>"ru"}
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1[0m  [["id", 2]]
+  [1m[35mCard Load (0.3ms)[0m  SELECT  "cards".* FROM "cards" WHERE "cards"."user_id" = $1 AND (review_date <= '2016-05-18 19:31:18.510841')  ORDER BY RANDOM() LIMIT 1  [["user_id", 2]]
+  [1m[36mCard Load (0.2ms)[0m  [1mSELECT  "cards".* FROM "cards" WHERE "cards"."user_id" = $1 AND (quality < 4)  ORDER BY RANDOM() LIMIT 1[0m  [["user_id", 2]]
+  Rendered dashboard/trainer/_review_form.erb (1.9ms)
+  Rendered dashboard/trainer/index.html.erb within layouts/application (3.2ms)
+  Rendered shared/_header.html.erb (3.4ms)
+  Rendered shared/_alert_notice.html.erb (0.7ms)
+Completed 200 OK in 57ms (Views: 31.0ms | ActiveRecord: 1.4ms)
+
+
+Started GET "/ru/blocks" for 127.0.0.1 at 2016-05-18 22:33:00 +0300
+Processing by Dashboard::BlocksController#index as HTML
+  Parameters: {"locale"=>"ru"}
+  [1m[35mUser Load (0.2ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1  [["id", 2]]
+  [1m[36mBlock Load (0.2ms)[0m  [1mSELECT "blocks".* FROM "blocks" WHERE "blocks"."user_id" = $1  ORDER BY title[0m  [["user_id", 2]]
+  Rendered dashboard/blocks/index.html.erb within layouts/application (2.2ms)
+  Rendered shared/_header.html.erb (1.6ms)
+  Rendered shared/_alert_notice.html.erb (0.3ms)
+Completed 200 OK in 20ms (Views: 15.9ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/ru/trainer" for 127.0.0.1 at 2016-05-18 22:33:01 +0300
+Processing by Dashboard::TrainerController#index as HTML
+  Parameters: {"locale"=>"ru"}
+  [1m[35mUser Load (0.2ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1  [["id", 2]]
+  [1m[36mCard Load (0.2ms)[0m  [1mSELECT  "cards".* FROM "cards" WHERE "cards"."user_id" = $1 AND (review_date <= '2016-05-18 19:33:01.592366')  ORDER BY RANDOM() LIMIT 1[0m  [["user_id", 2]]
+  [1m[35mCard Load (0.1ms)[0m  SELECT  "cards".* FROM "cards" WHERE "cards"."user_id" = $1 AND (quality < 4)  ORDER BY RANDOM() LIMIT 1  [["user_id", 2]]
+  Rendered dashboard/trainer/_review_form.erb (0.4ms)
+  Rendered dashboard/trainer/index.html.erb within layouts/application (1.1ms)
+  Rendered shared/_header.html.erb (1.4ms)
+  Rendered shared/_alert_notice.html.erb (0.3ms)
+Completed 200 OK in 15ms (Views: 11.4ms | ActiveRecord: 0.5ms)
+
+
+Started POST "/ru/logout" for 127.0.0.1 at 2016-05-18 22:33:03 +0300
+Processing by Dashboard::UserSessionsController#destroy as HTML
+  Parameters: {"authenticity_token"=>"9f20YtD0SDgANFTNLJongrsii3myMWYS+D0aoKdxVHApaTBhrQlM4F5e6FfOvCYy2jk061SI02blp3wK8SGYfw==", "locale"=>"ru"}
+  [1m[36mUser Load (0.3ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1[0m  [["id", 2]]
+  [1m[35mSQL (0.7ms)[0m  UPDATE "users" SET "remember_me_token" = NULL, "remember_me_token_expires_at" = NULL WHERE "users"."id" = $1  [["id", 2]]
+Redirected to http://localhost:3000/ru/login
+Completed 302 Found in 4ms (ActiveRecord: 1.0ms)
+
+
+Started GET "/ru/login" for 127.0.0.1 at 2016-05-18 22:33:03 +0300
+Processing by Home::UserSessionsController#new as HTML
+  Parameters: {"locale"=>"ru"}
+  Rendered home/user_sessions/_form.html.erb (1.9ms)
+  Rendered home/user_sessions/new.html.erb within layouts/application (4.9ms)
+  Rendered shared/_header.html.erb (2.5ms)
+  Rendered shared/_alert_notice.html.erb (0.6ms)
+Completed 200 OK in 22ms (Views: 21.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/home" for 127.0.0.1 at 2016-05-18 22:33:07 +0300
+[Rollbar] Reporting exception: No route matches [GET] "/home"
+[Rollbar] Scheduling item
+[Rollbar] Sending item
+[Rollbar] Got unexpected status code from Rollbar api: 400
+[Rollbar] Response: {
+  "err": 1,
+  "message": "access token required"
+}
+[Rollbar] Details: https://rollbar.com/instance/uuid?uuid=1106f1d5-5bb6-4689-bb55-207fe15118f6 (only available if report was successful)
+[Rollbar] Exception uuid saved in env: 1106f1d5-5bb6-4689-bb55-207fe15118f6
+
+ActionController::RoutingError (No route matches [GET] "/home"):
+  actionpack (4.2.6) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  rollbar (2.11.3) lib/rollbar/middleware/rails/show_exceptions.rb:22:in `call_with_rollbar'
+  newrelic_rpm (3.15.2.317) lib/new_relic/agent/instrumentation/middleware_tracing.rb:96:in `call'
+  actionpack (4.2.6) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  newrelic_rpm (3.15.2.317) lib/new_relic/agent/instrumentation/middleware_tracing.rb:96:in `call'
+  railties (4.2.6) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.6) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.6) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.6) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.6) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.6) lib/rails/rack/logger.rb:20:in `call'
+  newrelic_rpm (3.15.2.317) lib/new_relic/agent/instrumentation/middleware_tracing.rb:96:in `call'
+  actionpack (4.2.6) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  newrelic_rpm (3.15.2.317) lib/new_relic/agent/instrumentation/middleware_tracing.rb:96:in `call'
+  rack (1.6.4) lib/rack/methodoverride.rb:22:in `call'
+  newrelic_rpm (3.15.2.317) lib/new_relic/agent/instrumentation/middleware_tracing.rb:96:in `call'
+  rack (1.6.4) lib/rack/runtime.rb:18:in `call'
+  newrelic_rpm (3.15.2.317) lib/new_relic/agent/instrumentation/middleware_tracing.rb:96:in `call'
+  activesupport (4.2.6) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  newrelic_rpm (3.15.2.317) lib/new_relic/agent/instrumentation/middleware_tracing.rb:96:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  newrelic_rpm (3.15.2.317) lib/new_relic/agent/instrumentation/middleware_tracing.rb:96:in `call'
+  actionpack (4.2.6) lib/action_dispatch/middleware/static.rb:120:in `call'
+  newrelic_rpm (3.15.2.317) lib/new_relic/agent/instrumentation/middleware_tracing.rb:96:in `call'
+  rack (1.6.4) lib/rack/sendfile.rb:113:in `call'
+  newrelic_rpm (3.15.2.317) lib/new_relic/agent/instrumentation/middleware_tracing.rb:96:in `call'
+  railties (4.2.6) lib/rails/engine.rb:518:in `call'
+  railties (4.2.6) lib/rails/application.rb:165:in `call'
+  newrelic_rpm (3.15.2.317) lib/new_relic/agent/instrumentation/middleware_tracing.rb:96:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  rack (1.6.4) lib/rack/content_length.rb:15:in `call'
+  rack (1.6.4) lib/rack/handler/webrick.rb:88:in `service'
+  /home/diethart/.rvm/rubies/ruby-2.3.0/lib/ruby/2.3.0/webrick/httpserver.rb:140:in `service'
+  /home/diethart/.rvm/rubies/ruby-2.3.0/lib/ruby/2.3.0/webrick/httpserver.rb:96:in `run'
+  /home/diethart/.rvm/rubies/ruby-2.3.0/lib/ruby/2.3.0/webrick/server.rb:296:in `block in start_thread'
+
+
+  Rendered /home/diethart/.rvm/gems/ruby-2.3.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.7ms)
+  Rendered /home/diethart/.rvm/gems/ruby-2.3.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/routes/_route.html.erb (6.5ms)
+  Rendered /home/diethart/.rvm/gems/ruby-2.3.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/routes/_table.html.erb (10.1ms)
+  Rendered /home/diethart/.rvm/gems/ruby-2.3.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.9ms)
+  Rendered /home/diethart/.rvm/gems/ruby-2.3.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (73.6ms)
+
+
+Started GET "/en" for 127.0.0.1 at 2016-05-18 22:33:13 +0300
+Processing by MainController#index as HTML
+  Parameters: {"locale"=>"en"}
+  Rendered main/index.html.erb within layouts/application (1.0ms)
+  Rendered shared/_header.html.erb (1.4ms)
+  Rendered shared/_alert_notice.html.erb (0.6ms)
+Completed 200 OK in 26ms (Views: 21.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/en/users/new" for 127.0.0.1 at 2016-05-18 22:33:15 +0300
+Processing by Home::UsersController#new as HTML
+  Parameters: {"locale"=>"en"}
+  Rendered home/users/_form.html.erb (4.7ms)
+  Rendered home/users/new.html.erb within layouts/application (7.8ms)
+  Rendered shared/_header.html.erb (1.2ms)
+  Rendered shared/_alert_notice.html.erb (0.4ms)
+Completed 200 OK in 27ms (Views: 26.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/en/login" for 127.0.0.1 at 2016-05-18 22:33:18 +0300
+Processing by Home::UserSessionsController#new as HTML
+  Parameters: {"locale"=>"en"}
+  Rendered home/user_sessions/_form.html.erb (1.4ms)
+  Rendered home/user_sessions/new.html.erb within layouts/application (3.1ms)
+  Rendered shared/_header.html.erb (1.3ms)
+  Rendered shared/_alert_notice.html.erb (4.3ms)
+Completed 200 OK in 22ms (Views: 20.9ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/en/user_sessions" for 127.0.0.1 at 2016-05-18 22:33:20 +0300
+Processing by Home::UserSessionsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"FtKZ4o33YvS/SOOEG7cPF8V6pOYE40Uf+dnJ1z8k6RBFWcQ95pKs3RozpQblkDpxah7hpSOMakKU4VS4S3NEyA==", "email"=>"diethart19@gmail.com", "password"=>"[FILTERED]", "commit"=>"Log in", "locale"=>"en"}
+  [1m[36mUser Load (0.5ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."email" = 'diethart19@gmail.com'  ORDER BY "users"."id" ASC LIMIT 1[0m
+Redirected to http://localhost:3000/en
+Completed 302 Found in 117ms (ActiveRecord: 0.5ms)
+
+
+Started GET "/en" for 127.0.0.1 at 2016-05-18 22:33:20 +0300
+Processing by MainController#index as HTML
+  Parameters: {"locale"=>"en"}
+  [1m[35mUser Load (0.3ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1  [["id", 2]]
+  Rendered main/index.html.erb within layouts/application (0.4ms)
+  Rendered shared/_header.html.erb (1.6ms)
+  Rendered shared/_alert_notice.html.erb (0.3ms)
+Completed 200 OK in 37ms (Views: 35.1ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/ru/trainer" for 127.0.0.1 at 2016-05-18 22:33:22 +0300
+Processing by Dashboard::TrainerController#index as HTML
+  Parameters: {"locale"=>"ru"}
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1[0m  [["id", 2]]
+  [1m[35mCard Load (0.2ms)[0m  SELECT  "cards".* FROM "cards" WHERE "cards"."user_id" = $1 AND (review_date <= '2016-05-18 19:33:22.552010')  ORDER BY RANDOM() LIMIT 1  [["user_id", 2]]
+  [1m[36mCard Load (0.1ms)[0m  [1mSELECT  "cards".* FROM "cards" WHERE "cards"."user_id" = $1 AND (quality < 4)  ORDER BY RANDOM() LIMIT 1[0m  [["user_id", 2]]
+  Rendered dashboard/trainer/_review_form.erb (0.3ms)
+  Rendered dashboard/trainer/index.html.erb within layouts/application (1.2ms)
+  Rendered shared/_header.html.erb (2.5ms)
+  Rendered shared/_alert_notice.html.erb (0.4ms)
+Completed 200 OK in 22ms (Views: 17.5ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/ru/trainer" for 127.0.0.1 at 2016-05-18 22:33:24 +0300
+Processing by Dashboard::TrainerController#index as HTML
+  Parameters: {"locale"=>"ru"}
+  [1m[35mUser Load (0.1ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1  [["id", 2]]
+  [1m[36mCard Load (0.2ms)[0m  [1mSELECT  "cards".* FROM "cards" WHERE "cards"."user_id" = $1 AND (review_date <= '2016-05-18 19:33:24.076794')  ORDER BY RANDOM() LIMIT 1[0m  [["user_id", 2]]
+  [1m[35mCard Load (0.1ms)[0m  SELECT  "cards".* FROM "cards" WHERE "cards"."user_id" = $1 AND (quality < 4)  ORDER BY RANDOM() LIMIT 1  [["user_id", 2]]
+  Rendered dashboard/trainer/_review_form.erb (0.3ms)
+  Rendered dashboard/trainer/index.html.erb within layouts/application (4.2ms)
+  Rendered shared/_header.html.erb (1.8ms)
+  Rendered shared/_alert_notice.html.erb (0.4ms)
+Completed 200 OK in 20ms (Views: 16.2ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/ru/blocks" for 127.0.0.1 at 2016-05-18 22:33:25 +0300
+Processing by Dashboard::BlocksController#index as HTML
+  Parameters: {"locale"=>"ru"}
+  [1m[36mUser Load (1.0ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1[0m  [["id", 2]]
+  [1m[35mBlock Load (0.4ms)[0m  SELECT "blocks".* FROM "blocks" WHERE "blocks"."user_id" = $1  ORDER BY title  [["user_id", 2]]
+  Rendered dashboard/blocks/index.html.erb within layouts/application (1.5ms)
+  Rendered shared/_header.html.erb (1.5ms)
+  Rendered shared/_alert_notice.html.erb (0.3ms)
+Completed 200 OK in 30ms (Views: 21.9ms | ActiveRecord: 1.3ms)
+
+
+Started GET "/ru/trainer" for 127.0.0.1 at 2016-05-18 22:33:25 +0300
+Processing by Dashboard::TrainerController#index as HTML
+  Parameters: {"locale"=>"ru"}
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1[0m  [["id", 2]]
+  [1m[35mCard Load (0.2ms)[0m  SELECT  "cards".* FROM "cards" WHERE "cards"."user_id" = $1 AND (review_date <= '2016-05-18 19:33:25.638609')  ORDER BY RANDOM() LIMIT 1  [["user_id", 2]]
+  [1m[36mCard Load (0.6ms)[0m  [1mSELECT  "cards".* FROM "cards" WHERE "cards"."user_id" = $1 AND (quality < 4)  ORDER BY RANDOM() LIMIT 1[0m  [["user_id", 2]]
+  Rendered dashboard/trainer/_review_form.erb (0.5ms)
+  Rendered dashboard/trainer/index.html.erb within layouts/application (1.5ms)
+  Rendered shared/_header.html.erb (2.5ms)
+  Rendered shared/_alert_notice.html.erb (0.3ms)
+Completed 200 OK in 22ms (Views: 16.4ms | ActiveRecord: 1.1ms)
+
+
+Started GET "/trainer" for 127.0.0.1 at 2016-05-18 22:33:28 +0300
+Processing by Dashboard::TrainerController#index as HTML
+  [1m[35mUser Load (0.2ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1  [["id", 2]]
+  [1m[36mCard Load (0.2ms)[0m  [1mSELECT  "cards".* FROM "cards" WHERE "cards"."user_id" = $1 AND (review_date <= '2016-05-18 19:33:28.398099')  ORDER BY RANDOM() LIMIT 1[0m  [["user_id", 2]]
+  [1m[35mCard Load (0.1ms)[0m  SELECT  "cards".* FROM "cards" WHERE "cards"."user_id" = $1 AND (quality < 4)  ORDER BY RANDOM() LIMIT 1  [["user_id", 2]]
+  Rendered dashboard/trainer/_review_form.erb (0.3ms)
+  Rendered dashboard/trainer/index.html.erb within layouts/application (1.1ms)
+  Rendered shared/_header.html.erb (3.1ms)
+  Rendered shared/_alert_notice.html.erb (0.3ms)
+Completed 200 OK in 18ms (Views: 13.6ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/ru/blocks" for 127.0.0.1 at 2016-05-18 22:33:30 +0300
+Processing by Dashboard::BlocksController#index as HTML
+  Parameters: {"locale"=>"ru"}
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1[0m  [["id", 2]]
+  [1m[35mBlock Load (0.2ms)[0m  SELECT "blocks".* FROM "blocks" WHERE "blocks"."user_id" = $1  ORDER BY title  [["user_id", 2]]
+  Rendered dashboard/blocks/index.html.erb within layouts/application (1.2ms)
+  Rendered shared/_header.html.erb (1.5ms)
+  Rendered shared/_alert_notice.html.erb (0.4ms)
+Completed 200 OK in 15ms (Views: 12.4ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/ru/blocks/new" for 127.0.0.1 at 2016-05-18 22:33:31 +0300
+Processing by Dashboard::BlocksController#new as HTML
+  Parameters: {"locale"=>"ru"}
+  [1m[36mUser Load (0.1ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1[0m  [["id", 2]]
+  Rendered dashboard/blocks/_form.html.erb (3.2ms)
+  Rendered dashboard/blocks/new.html.erb within layouts/application (4.4ms)
+  Rendered shared/_header.html.erb (1.8ms)
+  Rendered shared/_alert_notice.html.erb (0.3ms)
+Completed 200 OK in 21ms (Views: 16.1ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/ru/cards" for 127.0.0.1 at 2016-05-18 22:33:32 +0300
+Processing by Dashboard::CardsController#index as HTML
+  Parameters: {"locale"=>"ru"}
+  [1m[35mUser Load (1.1ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1  [["id", 2]]
+  [1m[36mCard Load (0.3ms)[0m  [1mSELECT "cards".* FROM "cards" WHERE "cards"."user_id" = $1  ORDER BY review_date[0m  [["user_id", 2]]
+  Rendered dashboard/cards/index.html.erb within layouts/application (2.9ms)
+  Rendered shared/_header.html.erb (4.6ms)
+  Rendered shared/_alert_notice.html.erb (0.6ms)
+Completed 200 OK in 24ms (Views: 20.8ms | ActiveRecord: 1.3ms)
+
+
+Started GET "/ru/cards/new" for 127.0.0.1 at 2016-05-18 22:33:33 +0300
+Processing by Dashboard::CardsController#new as HTML
+  Parameters: {"locale"=>"ru"}
+  [1m[35mUser Load (0.2ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1  [["id", 2]]
+  [1m[36mBlock Load (0.3ms)[0m  [1mSELECT "blocks".* FROM "blocks" WHERE "blocks"."user_id" = $1  ORDER BY title[0m  [["user_id", 2]]
+  Rendered dashboard/cards/_form.html.erb (19.4ms)
+  Rendered dashboard/cards/new.html.erb within layouts/application (20.4ms)
+  Rendered shared/_header.html.erb (2.1ms)
+  Rendered shared/_alert_notice.html.erb (0.4ms)
+Completed 200 OK in 52ms (Views: 42.4ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/ru/profile/2/edit" for 127.0.0.1 at 2016-05-18 22:33:34 +0300
+Processing by Dashboard::ProfileController#edit as HTML
+  Parameters: {"id"=>"2", "locale"=>"ru"}
+  [1m[35mUser Load (0.3ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1  [["id", 2]]
+  Rendered dashboard/profile/_form.html.erb (8.5ms)
+  Rendered dashboard/profile/edit.html.erb within layouts/application (9.9ms)
+  Rendered shared/_header.html.erb (1.6ms)
+  Rendered shared/_alert_notice.html.erb (0.3ms)
+Completed 200 OK in 28ms (Views: 25.6ms | ActiveRecord: 0.3ms)
