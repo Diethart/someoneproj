@@ -36,11 +36,9 @@ class Card < ActiveRecord::Base
   end
 
   def self.pending_cards_notification
-    users = User.where.not(email: nil)
-    users.each do |user|
-      if user.cards.pending.any?
-        CardsMailer.pending_cards_notification(user.email).deliver
-      end
+    emails = User.where.not(email: nil).joins(:cards).where("cards.review_date < ?", Time.now).uniq.map{ |user| user.email }
+    emails.each do |email|
+      CardsMailer.pending_cards_notification(email).deliver
     end
   end
 
